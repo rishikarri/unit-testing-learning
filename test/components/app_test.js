@@ -15,7 +15,7 @@ describe('App', () => {
 
 	it('shows the correct text', () => {
 		// use expect to make an assertion about a target
-		
+		expect(component).to.contain('React simple starter');
 	})
 })
 
