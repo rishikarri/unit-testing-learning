@@ -33,5 +33,7 @@ $.fn.simulate = function(eventName, value) {
   TestUtils.Simulate[eventName](this[0]);
 };
 
+// unit testing helper file
+
 export {renderComponent, expect};
 
